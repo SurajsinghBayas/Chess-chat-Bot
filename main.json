@@ -1,0 +1,149 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "How are you?",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "What's up",
+          "how are ya",
+          "heyy",
+          "whatsup"
+        ],
+        "responses": [
+          "Hello!",
+          "Good to see you again!",
+          "Hi there, how can I help?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Talk to you later",
+          "I'm leaving"
+        ],
+        "responses": [
+          "Goodbye!",
+          "See you later!",
+          "Have a great day!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thanks a lot!"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "Anytime!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "no_answer",
+        "patterns": [
+          "",
+          "???"
+        ],
+        "responses": [
+          "Sorry, I didn't get that.",
+          "Can you rephrase?",
+          "I didn't understand. Can you say that again?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "chess_rules",
+        "patterns": [
+          "How does a knight move?",
+          "What are the rules of chess?",
+          "How does the king move?",
+          "Explain castling",
+          "Can pawns move backward?",
+          "Chess rules"
+        ],
+        "responses": [
+          "A knight moves in an L-shape: two squares in one direction, then one square perpendicular.",
+          "The king can move one square in any direction.",
+          "Pawns move forward one square, but capture diagonally.",
+          "In castling, the king moves two squares towards a rook, and the rook moves next to the king."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "chess_openings",
+        "patterns": [
+          "What are some chess openings?",
+          "Tell me about chess openings",
+          "Best opening for white?",
+          "Popular chess openings",
+          "What is the King's Gambit?",
+          "Explain the Sicilian Defense"
+        ],
+        "responses": [
+          "Some popular chess openings are: the King's Gambit, the Sicilian Defense, and the Ruy López.",
+          "For white, the Ruy López and Queen's Gambit are common openings.",
+          "The Sicilian Defense is a strong opening for black, starting with 1. e4 c5."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "chess_tips",
+        "patterns": [
+          "Give me some chess tips",
+          "How do I improve at chess?",
+          "Any tips for a beginner?",
+          "How to checkmate quickly?",
+          "Best strategy for chess"
+        ],
+        "responses": [
+          "Control the center of the board, develop your pieces early, and avoid moving the same piece multiple times in the opening.",
+          "Focus on piece activity and positioning over material.",
+          "In the endgame, try to promote your pawns and use your king actively."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "chess_history",
+        "patterns": [
+          "Tell me about the history of chess",
+          "Where did chess originate?",
+          "History of chess",
+          "When was chess invented?"
+        ],
+        "responses": [
+          "Chess originated in India around the 6th century AD. It spread to Persia and later to Europe.",
+          "The modern game of chess evolved during the 15th century in Europe."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "chess_famous_players",
+        "patterns": [
+          "Who are famous chess players?",
+          "Tell me about Magnus Carlsen",
+          "Famous chess champions",
+          "Who is the best chess player?"
+        ],
+        "responses": [
+          "Magnus Carlsen is considered one of the greatest chess players of all time.",
+          "Other famous players include Garry Kasparov, Bobby Fischer, and Anatoly Karpov.",
+          "The world chess championship is held to determine the top player."
+        ],
+        "context_set": ""
+      }
+    ]
+  }
+  
