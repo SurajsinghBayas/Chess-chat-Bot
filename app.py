@@ -36,17 +36,17 @@ def chat():
     best_match_response = "I'm sorry, I don't understand."
     best_match_score = 0
 
-    # Process user input with spaCy
+   
     user_doc = nlp(user_input)
 
-    # Loop through the patterns to find the best match
+    
     for intent in intents:
         intent_tag = intent["tag"]
         for pattern in intent["patterns"]:
             pattern_doc = nlp(pattern.lower())
-            score = user_doc.similarity(pattern_doc)  # Calculate similarity
+            score = user_doc.similarity(pattern_doc)  
 
-            # Check if the score is better than the previous best
+            
             if score > best_match_score:
                 best_match_score = score
                 best_match_response = random.choice(intent["responses"])
